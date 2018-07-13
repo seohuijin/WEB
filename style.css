@@ -1,0 +1,33 @@
+  h1{
+    text-align:center;
+  }
+@media(min-width:500px){
+  h1{
+    border-bottom:yellowgreen 7px solid;
+    padding:35px;
+    margin:0;
+  }
+  ul{
+    border-right:yellowgreen 7px solid;
+    border-left:yellowgreen 7px solid;
+    width:115px;
+    margin:0;
+  }
+  #grid{
+    display:grid;
+    grid-template-columns: 190px 1fr;
+  }
+}
+   li{
+     padding:4px;
+   }
+    a{
+      text-decoration: none;
+    }
+    #active{
+      color:gold;
+      text-decoration: underline;
+    }
+    .visited{
+      ;
+    }
